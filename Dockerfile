@@ -54,3 +54,5 @@ RUN cd /tmp \
   && chmod -R 777 /tmp/
   
 ENV TERM xterm
+
+CMD /runReport.sh
